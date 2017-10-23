@@ -15,10 +15,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-get('abut', function () {
-    return view('about');
-});
-
-get('login', function () {
-    return view('login');
-});
