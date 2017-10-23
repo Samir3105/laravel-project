@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-get('about', function () {
+get('abot', function () {
     return view('about');
 });
+
+
 
 get('login', function () {
     return view('login');
