@@ -20,6 +20,4 @@ get('about', function () {
     return view('about');
 });
 
-get('login', function () {
-    return view('login');
-});
+
